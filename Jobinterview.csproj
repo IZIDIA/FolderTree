@@ -43,11 +43,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\FileElement.cs" />
+    <Compile Include="Classes\FileSystemElementsSort.cs" />
+    <Compile Include="Classes\FolderElement.cs" />
+    <Compile Include="Classes\TreeBuilder.cs" />
+    <Compile Include="Classes\TreePrinter.cs" />
+    <Compile Include="Classes\TxtFileReader.cs" />
+    <Compile Include="Interfaces\IFileReader.cs" />
+    <Compile Include="Interfaces\IFileSystemElement.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
